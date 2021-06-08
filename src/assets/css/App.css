@@ -1,0 +1,163 @@
+.header-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.description-container {
+  width: 85%;
+  margin: 20px auto 38px;
+}
+
+.app-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.chara-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chara-box {
+  width: 10%;
+  height: 145px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.chara-box p {
+  line-height: 18px;
+}
+
+.chara-box span {
+  font-size: small;
+}
+
+.chara-icon {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: 724px 724px;
+  background-image: url("../img/default_icon.png");
+}
+
+.selected {
+  filter: opacity(25%);
+}
+
+.btn {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 3rem;
+  margin: 0 14px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #aa0000;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.movie-box {
+  margin-bottom: 40px;
+  border: thick double #aa0000;
+  padding: 14px;
+}
+
+.movie-box-text {
+  font-size: large;
+  font-weight: 600;
+}
+
+.setlist-wrap {
+  width: 640px;
+  margin-top: 10px;
+}
+
+.setlist-wrap ul {
+  width: 100%;
+}
+
+.setlist-wrap li {
+  font-size: 14px;
+  padding: 6px 4px;
+}
+
+.setlist-wrap li:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.return-button-box {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.return-button {
+  display: inline-block;
+  text-decoration: none;
+  background: #aa0000;
+  color: #FFF;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.other-container {
+  border-top: dashed #aa0000;
+}
+
+.other-container-item {
+  width: 85%;
+  margin: 20px auto;
+}
+
+.other-container-item p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .header-container {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .description-container {
+    font-size: small;
+  }
+
+  .chara-box {
+    width: 33.33%;
+  }
+
+  .btn {
+    padding: 16px;
+  }
+
+  .setlist-wrap {
+    width: 100%;
+  }
+}

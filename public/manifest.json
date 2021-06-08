@@ -1,0 +1,8 @@
+{
+  "short_name": "ライブ検索",
+  "name": "ミリオンライブ　ライブ検索",
+  "start_url": ".",
+  "display": "browser",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
