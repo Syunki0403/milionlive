@@ -1,3 +1,5 @@
 export { default as Header } from './Header.jsx'
 export { default as Setlist } from './Setlist.jsx'
-export { default as ReturnTopButton } from './ReturnTopButton .jsx'
+export { default as ReturnTopButton } from './ReturnTopButton.jsx'
+export { default as Graph } from './Graph.jsx'
+export { default as ScrollToTop } from './ScrollToTop.jsx'

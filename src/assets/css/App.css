@@ -116,7 +116,7 @@
   display: inline-block;
   text-decoration: none;
   background: #aa0000;
-  color: #FFF;
+  color: #fff;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -127,6 +127,7 @@
 
 .other-container {
   border-top: dashed #aa0000;
+  margin: 20px 0;
 }
 
 .other-container-item {
@@ -137,6 +138,18 @@
 .other-container-item p {
   font-size: 18px;
   font-weight: 600;
+}
+
+.page-result {
+  margin-bottom: 40px;
+}
+
+.chart {
+  margin: 0 auto;
+}
+
+.graph-wrap {
+  margin: 20px 0 20px;
 }
 
 @media screen and (max-width: 480px) {

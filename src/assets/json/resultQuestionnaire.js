@@ -1,0 +1,27 @@
+const questionnaire = [
+    { name: '1st DAY1', votes: 0 },
+    { name: '1st DAY2', votes: 8 },
+    { name: '2nd DAY1', votes: 2 },
+    { name: '2nd DAY2', votes: 11 },
+    { name: '3rd @NAGOYA', votes: 5 },
+    { name: '3rd @SENDAI', votes: 6 },
+    { name: '3rd @OSAKA DAY1', votes: 1 },
+    { name: '3rd @OSAKA DAY2', votes: 2 },
+    { name: '3rd @FUKUOKA', votes: 19 },
+    { name: '3rd @MAKUHARI DAY1', votes: 15 },
+    { name: '3rd @MAKUHARI DAY2', votes: 34 },
+    { name: '4th DAY1', votes: 6 },
+    { name: '4th DAY2', votes: 29 },
+    { name: '4th DAY3', votes: 31 },
+    { name: '5th DAY1', votes: 10 },
+    { name: '5th DAY2', votes: 12 },
+    { name: '6th @SENDAI', votes: 4 },
+    { name: '6th @KOBE', votes: 8 },
+    { name: '6th @FUKUOKA', votes: 32 },
+    { name: '6th SPECIAL DAY1', votes: 18 },
+    { name: '6th SPECIAL DAY2', votes: 22 },
+    { name: '7th DAY1', votes: 51 },
+    { name: '7th DAY2', votes: 37 },
+]
+
+export default questionnaire
